@@ -3,7 +3,7 @@ import { Route, Routes } from "react-router-dom";
 import Layout from "./component/Layout";
 import HomePage from "./router/HomePage";
 import AboutUs from "./router/AboutUs";
-import Game from "./router/Game";
+import Card from "./router/Card";
 
 
 
@@ -12,7 +12,7 @@ export default function App() {
     <Routes>
       <Route path="/" element={<Layout><HomePage/></Layout>}/>
       <Route path="/about" element={<Layout><AboutUs/></Layout>}/>
-      <Route path="/game" element={<Layout><Game/></Layout>}/>
+      <Route path="/game" element={<Layout><Card/></Layout>}/>
        
     </Routes>
     
